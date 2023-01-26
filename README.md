@@ -3,19 +3,17 @@
 
 Basics of php redis
 
-// If using PHP >= 7.3
--> pickle install redis
+// Has to be PHP >= 7.3
+1. pickle install redis
 
-
--> git clone https://github.com/phpredis/phpredis.git
+2. git clone https://github.com/phpredis/phpredis.git
 cd phpredis
 phpize
 ./configure [--enable-redis-igbinary] [--enable-redis-msgpack] [--enable-redis-lzf [--with-liblzf[=DIR]]] [--enable-redis-zstd]
 make && make install
 
-
 N.B.: If you get error `configure: error: Cannot find igbinary.h`
--> sudo pecl install igbinary
+3. sudo pecl install igbinary
+** Then restart from step 2.
 
-
-extension=redis.so in your php.ini
+4. extension=redis.so in your php.ini
