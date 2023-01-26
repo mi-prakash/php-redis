@@ -1,0 +1,2 @@
+hello, Channel 1! on chan-1
+hello, Channel 2! on chan-2
