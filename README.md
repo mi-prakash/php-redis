@@ -13,7 +13,9 @@ Basics of php redis
     - make && make install
 
 N.B.: If you get error `configure: error: Cannot find igbinary.h`
+
 3. sudo pecl install igbinary
+
 ** Then restart from step 2.
 
 4. Add `extension=redis.so` in your php.ini
