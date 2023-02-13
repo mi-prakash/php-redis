@@ -4,7 +4,7 @@
 Basics of php redis
 
 # Has to be PHP >= 7.3
-1. pickle install redis
+1. In terminal use this command `brew install redis` OR `pickle install redis`
 
 2. git clone https://github.com/phpredis/phpredis.git
     - cd phpredis
